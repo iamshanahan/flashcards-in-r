@@ -1,5 +1,8 @@
+#! /usr/bin/env Rscript
+require(docopt)
 
-
+print("hello")
+exit()
 iteratorfactory <- function(x) {
   function() {
     ret <<- x
